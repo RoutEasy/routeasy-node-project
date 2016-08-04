@@ -14,6 +14,9 @@ The first thing you should do is install the Node.js dependencies. To learn more
 $ npm install
 ```
 
+## Setup Your Credentials
+To run this project you might have a RoutEasy account. Then you need to setup your credentials inside `config.json` file.
+
 ## Running Your Application
 After the install process is over, you'll be able to run the application. Just run node:
 
