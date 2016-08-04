@@ -1,0 +1,16 @@
+{
+    "name": "Origem Roteirização",
+    "code": "001",
+    "address": {
+        "postal_code": "01310-000",
+        "city": "São Paulo",
+        "route": "Avenida Paulista",
+        "neighborhood": "Bela Vista",
+        "geocode": {
+            "lat": -23.568832,
+            "lng": -46.647347,
+            "source": "google.api.key"
+        },
+        "street_number": "500"
+    }
+}

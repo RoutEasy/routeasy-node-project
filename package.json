@@ -1,0 +1,27 @@
+{
+  "name": "routeasy-node-project",
+  "version": "1.0.0",
+  "description": "A simple Node.js project that uses Routeasy's API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Kennedy <william.kennedy@routeasy.com.br>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RoutEasy/routeasy-node-project"
+  },
+  "bugs": {
+    "url": "https://github.com/RoutEasy/routeasy-node-project/issues"
+  },
+  "keywords": [
+    "routeasy",
+    "node"
+  ],
+  "license": "GPL-3.0",
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "request": "^2.70.0"
+  }
+}

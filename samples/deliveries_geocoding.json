@@ -1,0 +1,67 @@
+[{
+    "code": "13400",
+    "name": "RONSINE ALIMENTOS COMERCIO E SERVICOS LTDA - EPP",
+    "address": {
+        "route": "R HELOISA PAMPLONA",
+        "street_number": 623,
+        "city": "SAO CAETANO DO SUL",
+        "state": "SP",
+        "country": "Brasil"
+    },
+    "weight": 1405,
+    "volume": 0,
+    "constraints": {
+        "window_daily": {
+            "start_time": "1970-01-01T05:00:00.000Z",
+            "end_time": "1970-01-01T12:00:00.000Z"
+        }
+    }
+}, {
+    "code": "08891",
+    "name": "ADAO JOSE DOS SANTOS - ME",
+    "address": {
+        "route": "R PRINCIPAL",
+        "street_number": 2,
+        "city": "SAO BERNARDO DO CAMPO",
+        "state": "SP",
+        "country": "Brasil"
+    },
+    "weight": 1134,
+    "volume": 0
+}, {
+    "code": "06180",
+    "name": "PANIFICADORA MILANO LTDA",
+    "address": {
+        "route": "AV PRES JOAO CAFE FILHO",
+        "street_number": 1888,
+        "city": "SAO BERNARDO DO CAMPO",
+        "state": "SP",
+        "country": "Brasil"
+    },
+    "weight": 555,
+    "volume": 0
+}, {
+    "code": "11553",
+    "name": "MERCEARIA MARJOLI LTDA ME",
+    "address": {
+        "route": "R CRISTIANO ANGELI",
+        "street_number": 1373,
+        "city": "SAO BERNARDO DO CAMPO",
+        "state": "SP",
+        "country": "Brasil"
+    },
+    "weight": 817,
+    "volume": 0
+}, {
+    "code": "20418",
+    "name": "BARCELONA COM VAR E ATAC S/A",
+    "address": {
+        "route": "R SEN VERGUEIRO",
+        "street_number": 428,
+        "city": "SAO CAETANO DO SUL",
+        "state": "SP",
+        "country": "Brasil"
+    },
+    "weight": 1134,
+    "volume": 0
+}]

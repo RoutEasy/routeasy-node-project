@@ -1,0 +1,19 @@
+{
+    "type": "Carro",
+    "name": "Carro 1",
+    "capacity": {
+        "weight": 100,
+        "volume": 40
+    },
+    "average_speed": 25,
+    "constraints": {
+        "fleet_size": 99,
+        "minimum_filling": 60,
+        "maximum_stops": 99,
+        "maximum_travel_time": 8,
+        "allowed_regions": {
+            "sp": false
+        }
+    },
+    "additional_info": "Carro padrão"
+}

@@ -1,0 +1,63 @@
+{
+    "deliveries": [
+        {
+            "code": "0001",
+            "name": "",
+            "address": {
+                "route": "",
+                "street_number": 0,
+                "city": "",
+                "state": "",
+                "country": "",
+                "geocode": {
+                    "lat": -23.6338,
+                    "lng": -46.579
+                }
+            },
+            "weight": 1,
+            "volume": 0
+        },
+        {
+            "code": "0002",
+            "name": "",
+            "address": {
+                "route": "",
+                "street_number": 0,
+                "city": "",
+                "state": "",
+                "country": "",
+                "geocode": {
+                    "lat": -23.7051,
+                    "lng": -46.5386
+                }
+            },
+            "weight": 1,
+            "volume": 0
+        },
+        {
+            "code": "0003",
+            "name": "",
+            "address": {
+                "route": "",
+                "street_number": 0,
+                "city": "",
+                "state": "",
+                "country": "",
+                "geocode": {
+                    "lat": -23.6091115,
+                    "lng": -46.5691342,
+                    "source": "google.api.key"
+                }
+            },
+            "weight": 1,
+            "volume": 0,
+            "constraints": {
+                "window_daily": {
+                    "start_time": "1970-01-01T05:00:00.000Z",
+                    "end_time": "1970-01-01T12:00:00.000Z"
+                }
+            }
+        }
+    ],
+    "name": "Teste"
+}
