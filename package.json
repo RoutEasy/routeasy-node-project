@@ -19,7 +19,7 @@
     "routeasy",
     "node"
   ],
-  "license": "GPL-3.0",
+  "license": "MIT",
   "dependencies": {
     "async": "^2.0.0-rc.3",
     "request": "^2.70.0"
