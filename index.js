@@ -127,7 +127,12 @@ async.series(
             async.series(
                 [
                     createEntity('/vehicles', './samples/new_routing_vehicle', function(v) { vehicle = v; }),
-                    createEntity('/depots', './samples/new_routing_depot', function(d) { depot = d; }),
+                    createEntity('/depots', './samples/new_routing_depot', function(d) 
+                        {
+                            /* RoutEasy Core Update: Depots must have window daily restriction defined */
+                            d.constraints = { window_daily: { start_time: new Date(1970,1,1,8,0,0), end_time: new Date(1970,1,1,20,0,0) } } ;
+                            depot = d; 
+                        }),
                     createEntity('/orders', './samples/new_routing_order', function(o) { order = o; }),
                 ], function(err)
                 {
