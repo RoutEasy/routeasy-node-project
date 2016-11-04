@@ -30,7 +30,7 @@ $ node index.js
 ```
 
 ## Wiki
-You can see step by step the routing process and how to use all RoutEasy's features in our [https://github.com/RoutEasy/routeasy-node-project/wiki](Wiki) (pt-BR).
+You can see step by step the routing process and how to use all RoutEasy's features in our [Wiki](https://github.com/RoutEasy/routeasy-node-project/wiki) (pt-BR).
 
 ## Documentation
 All endpoints are available in the [docs](http://docs.routeasy.com.br) section of our website. Feel free to contact the author by email [william.kennedy@routeasy.com.br](mailto:william.kennedy@routeasy.com.br)
