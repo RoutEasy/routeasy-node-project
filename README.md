@@ -1,4 +1,4 @@
-[![RoutEasy Logo](http://www.routeasy.com.br/lib/landing/img/routeasy-horizontal_180.png)](http://www.routeasy.com.br/)
+[![RoutEasy Logo](http://app.routeasy.com.br/lib/landing/img/routeasy-horizontal_180.png)](http://www.routeasy.com.br/)
 # RoutEasy Node.js Project v1.0.0
 This is a **project example** that provides an overview to our customers about how the routing process using our API is made.
 

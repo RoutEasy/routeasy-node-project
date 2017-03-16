@@ -97,7 +97,7 @@ async.series(
          * 5. ORDER CREATION
          *
          * Before creating a routing project, one must create an order (delivery set) 
-         */
+         
         function(callback)
         {
             request(
@@ -112,6 +112,7 @@ async.series(
                     callback();
                 });
         },
+        */
 
 
         /**
@@ -122,7 +123,7 @@ async.series(
          */
         function(callback)
         {
-            var vehicle, depot, order;
+            var vehicle, depot;
             var createEntity = function(url, src, handle) { return function(callback) { request({url: config.host + url, method: 'POST', body: require(src)}, function(err, response) { handle(response.body); callback() }); }; };
             async.series(
                 [
@@ -133,19 +134,16 @@ async.series(
                             d.constraints = { window_daily: { start_time: new Date(1970,1,1,8,0,0), end_time: new Date(1970,1,1,20,0,0) } } ;
                             depot = d; 
                         }),
-                    createEntity('/orders', './samples/new_routing_order', function(o) { order = o; }),
                 ], function(err)
                 {
                     var routing = require('./samples/new_routing');
                     // data.order.deliveries must be embedded
-                    routing.data.order = order;
+                    routing.data.order = {};
                     var deliveries = require('./samples/new_routing_order').deliveries;
-                    for(var i = 0; i < deliveries.length; i++)
-                        deliveries[i]._id = order.deliveries[i];
                     routing.data.order.deliveries = deliveries;
                     routing.data.vehicles = [vehicle];
                     routing.data.depots = [depot];
-                    routing.order = order._id;
+                    routing.data.constraints = {do_not_return_to_depot: true}
                     routing.vehicles = [vehicle._id];
                     routing.depots = [depot._id];
                     request(

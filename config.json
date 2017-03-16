@@ -1,8 +1,8 @@
 {
-    "host": "http://www.routeasy.com.br",
+    "host": "http://localhost:3000",
     "credentials":
     {
-        "username": "SEU_USUARIO",
-        "password": "SUA_SENHA"
+        "username": "victor.silva@routeasy.com.br",
+        "password": "123456789"
     }
 }

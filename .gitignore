@@ -41,3 +41,4 @@ local.properties
 *.swp
 logs/
 build/
+.vscode/
