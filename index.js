@@ -143,7 +143,6 @@ async.series(
                     routing.data.order.deliveries = deliveries;
                     routing.data.vehicles = [vehicle];
                     routing.data.depots = [depot];
-                    routing.data.constraints = {do_not_return_to_depot: true}
                     routing.vehicles = [vehicle._id];
                     routing.depots = [depot._id];
                     request(

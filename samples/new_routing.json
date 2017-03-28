@@ -2,7 +2,7 @@
     "name": "Nome da roteirização",
     "data": {
         "opts": {
-            "real_distances": false
+            "real_distances": true
         }
     },
     "additional_info": ""
