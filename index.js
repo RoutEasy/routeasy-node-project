@@ -13,7 +13,7 @@ var request = req.defaults(
         jar: true
     });
 
-async.series(
+async.waterfall(
     [
         /**
          * 1. LOGIN
@@ -89,10 +89,11 @@ async.series(
                 {
                     if(err) { console.error(err); }
                     console.log('4. first delivery latitude: ' + response.body[0].address.geocode.lat);
-                    callback();
+                    callback(null, response.body);
                 });
         },
         
+        // ---------------------- ORDER CREATION IS NOW DEPRECATED ----------------------
         /**
          * 5. ORDER CREATION
          *
@@ -113,6 +114,7 @@ async.series(
                 });
         },
         */
+        // ---------------------- ORDER CREATION IS NOW DEPRECATED ----------------------
 
 
         /**
@@ -121,7 +123,7 @@ async.series(
          * Currently the API client must send raw data into the 'data' member of the new routing
          *
          */
-        function(callback)
+        function(deliveries, callback)
         {
             var vehicle, depot;
             var createEntity = function(url, src, handle) { return function(callback) { request({url: config.host + url, method: 'POST', body: require(src)}, function(err, response) { handle(response.body); callback() }); }; };
@@ -137,14 +139,13 @@ async.series(
                 ], function(err)
                 {
                     var routing = require('./samples/new_routing');
-                    // data.order.deliveries must be embedded
                     routing.data.order = {};
-                    var deliveries = require('./samples/new_routing_order').deliveries;
                     routing.data.order.deliveries = deliveries;
                     routing.data.vehicles = [vehicle];
                     routing.data.depots = [depot];
                     routing.vehicles = [vehicle._id];
                     routing.depots = [depot._id];
+
                     request(
                         {
                             url: config.host + '/routings',

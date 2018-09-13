@@ -1,16 +1,22 @@
 {
-    "name": "Origem Roteirização",
+    "name": "CD Zona Sul",
     "code": "001",
+    "constraints": {
+        "window_daily": {
+            "start_time": "1970-02-01T11:00:00.000Z",
+            "end_time": "1970-02-01T23:00:00.000Z"
+        }
+    },
     "address": {
-        "postal_code": "01310-000",
-        "city": "São Paulo",
-        "route": "Avenida Paulista",
-        "neighborhood": "Bela Vista",
         "geocode": {
-            "lat": -23.568832,
-            "lng": -46.647347,
-            "source": "google.api.key"
+            "lat": -23.618124,
+            "lng": -46.636551
         },
-        "street_number": "500"
+        "street_number": "270",
+        "route": "Rua Pereira Stéfano",
+        "neighborhood": "Saúde",
+        "city": "São Paulo",
+        "country": "Brasil",
+        "postal_code": "41440070"
     }
 }

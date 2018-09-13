@@ -1,7 +1,7 @@
 {
   "name": "routeasy-node-project",
   "version": "1.0.0",
-  "description": "A simple Node.js project that uses Routeasy's API.",
+  "description": "A simple Node.js project that uses RoutEasy's API.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

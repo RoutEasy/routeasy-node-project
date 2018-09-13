@@ -1,19 +1,27 @@
 {
-    "type": "Carro",
-    "name": "Carro 1",
+    "name": "Vuc",
+    "type": "Vuc",
     "capacity": {
-        "weight": 100,
-        "volume": 40
+        "weight": 3500,
+        "volume": 22
     },
-    "average_speed": 25,
+    "fuel_type": {
+        "name": "diesel"
+    },
     "constraints": {
-        "fleet_size": 99,
+        "allowed_regions": {
+            "sp": true
+        },
+        "fleet_size": 1,
         "minimum_filling": 60,
         "maximum_stops": 99,
         "maximum_travel_time": 8,
-        "allowed_regions": {
-            "sp": false
-        }
+        "maximum_travel_distance": 10000
     },
-    "additional_info": "Carro padrão"
+    "average_speed": 25,
+    "quantity_axle": 2,
+    "fuel_consumption": 7,
+    "additional_info": "Vuc padrão",
+    "qualp_vehicle_type": "caminhao",
+    "qualp_quantity_axle": 2
 }

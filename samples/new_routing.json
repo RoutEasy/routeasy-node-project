@@ -1,9 +1,44 @@
 {
-    "name": "Nome da roteirização",
+    "name": "Nome da roteirização 2",
     "data": {
+        "constraints": {
+            "delivery_window_daily": {
+                "enabled": false
+            },
+            "delivery_prohibited_vehicles": {
+                "enabled": false
+            },
+            "delivery_exclusive_vehicles": {
+                "enabled": false
+            },
+            "vehicle_maximum_stops": {
+                "enabled": false
+            },
+            "vehicle_minimum_filling": {
+                "enabled": false
+            },
+            "vehicle_maximum_travel_time": {
+                "enabled": false
+            },
+            "vehicle_maximum_travel_distance": {
+                "enabled": false
+            },
+            "vehicle_allowed_region_sp": {
+                "enabled": false
+            },
+            "vehicle_fleet_size": {
+                "enabled": false
+            },
+            "do_not_return_to_depot": {
+                "enabled": false
+            },
+            "delivery_region": {
+                "enabled": false
+            }
+        },
+        "routingProfile": "default",
         "opts": {
             "real_distances": true
         }
-    },
-    "additional_info": ""
+    }
 }

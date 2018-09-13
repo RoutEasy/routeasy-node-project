@@ -8,8 +8,8 @@
         "state": "SP",
         "country": "Brasil"
     },
-    "weight": 1405,
-    "volume": 0,
+    "weight": 14,
+    "volume": 1,
     "constraints": {
         "window_daily": {
             "start_time": "1970-01-01T05:00:00.000Z",
@@ -26,8 +26,8 @@
         "state": "SP",
         "country": "Brasil"
     },
-    "weight": 1134,
-    "volume": 0
+    "weight": 11,
+    "volume": 2
 }, {
     "code": "06180",
     "name": "PANIFICADORA MILANO LTDA",
@@ -38,8 +38,8 @@
         "state": "SP",
         "country": "Brasil"
     },
-    "weight": 555,
-    "volume": 0
+    "weight": 5,
+    "volume": 0.3
 }, {
     "code": "11553",
     "name": "MERCEARIA MARJOLI LTDA ME",
@@ -50,8 +50,8 @@
         "state": "SP",
         "country": "Brasil"
     },
-    "weight": 817,
-    "volume": 0
+    "weight": 8,
+    "volume": 1.2
 }, {
     "code": "20418",
     "name": "BARCELONA COM VAR E ATAC S/A",
@@ -62,6 +62,6 @@
         "state": "SP",
         "country": "Brasil"
     },
-    "weight": 1134,
-    "volume": 0
+    "weight": 19,
+    "volume": 4.7
 }]
